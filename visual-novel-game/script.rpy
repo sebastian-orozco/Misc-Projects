@@ -3,8 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+# The name of the second character has been replaced with "person" to protect their identity.
 define s = Character("Sebastian", image = "sebastian")
-define b = Character("Brandon", image = "brandon")
+define p = Character("Person", image = "person")
 
 
 # The game starts here.
@@ -67,7 +68,6 @@ label start:
     scene bg forest
 
     s nervy "Woah, it's getting dark."
-    s nervy "If only I had a handsome boyfriend by my side..."
     s surprised "Huh, what's that?"
 
     scene bg wide
@@ -93,14 +93,14 @@ label start:
 
     scene bg hearts with Pause(0.5)
     
-    b smile "Hey ;)"
+    p smile "Hey ;)"
 
     s heartthrob "<3"
 
     scene bg sunset
 
     "And they lived happily ever after."
-    "Happy 100 Days Brandy."
+    "Happy 100 Days."
 
     # This ends the game.
 
